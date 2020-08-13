@@ -11,18 +11,32 @@ $ git push -u origin master
 ```
 
 
-### Add changes
+### Add changes 
 
+Add changes
+- `git add .`  (to update what will be committed)
+- `git commit -a -m "some changes notes"` (add + commit, -a add; -m message)
+- `git push` (push changes to master branch)
+
+Download changes
+- `git pull`
+
+**Resolve conflicts force overwrite**
+- `$ git fetch --all` 1) First fetch all changes:
+- `$ git reset --hard origin/master` (2) Then reset the master:
+- `$ git pull` (3) Pull/update:
+
+Control commands
+- `git log`
+- `git status`
+
+
+## Upload changes
 ```
-git commit -a -m "Added some changes"
-
-# Option B
-git add file1 file2
-git commit -m "Added some changes"
+$ git push origin master
 ```
 
-- `-m` flag stands for message
-- `-a` flag stands for "add" ()
+
 
 
 ### Altres
