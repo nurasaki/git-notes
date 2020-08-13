@@ -17,6 +17,7 @@ Add changes
 - `git add .`  (to update what will be committed)
 - `git commit -a -m "some changes notes"` (add + commit, -a add; -m message)
 - `git push` (push changes to master branch)
+- `git push origin --force`
 
 Download changes
 - `git pull`
